@@ -32,12 +32,12 @@ const specialties = [
 ];
 
 const services = [
-  { img: "svc-obstetrics.png", title: "Obstetrics & Delivery", titleKn: "ಪ್ರಸೂತಿ ಮತ್ತು ಹೆರಿಗೆ", desc: "Expert pregnancy care, safe labour room & delivery by experienced obstetricians.", accent: "#E8567A" },
-  { img: "svc-gynecology.png", title: "Gynaecology", titleKn: "ಸ್ತ್ರೀರೋಗ ಚಿಕಿತ್ಸೆ", desc: "Comprehensive women's health hormonal, menstrual, fertility and preventive care.", accent: "#1D4ED8" },
-  { img: "svc-neonatal.png", title: "Neonatal Care", titleKn: "ನವಜಾತ ಶಿಶು ಆರೈಕೆ", desc: "Dedicated newborn care with skilled paediatricians for the best start in life.", accent: "#6366F1" },
-  { img: "svc-opd.png", title: "OPD Consultations", titleKn: "ಹೊರರೋಗಿ ಸಮಾಲೋಚನೆ", desc: "Multi-specialty outpatient consultations with minimal wait times.", accent: "#F59E0B" },
-  { img: "svc-emergency.png", title: "Emergency & ICU", titleKn: "ತುರ್ತು ಮತ್ತು ಐಸಿಯು", desc: "Round-the-clock emergency care with basic ICU and rapid-response teams.", accent: "#EF4444" },
-  { img: "svc-wellness.png", title: "Women's Wellness", titleKn: "ಮಹಿಳಾ ಆರೋಗ್ಯ", desc: "Preventive screenings and holistic care tailored for women.", accent: "#22C55E" },
+  { img: `${import.meta.env.BASE_URL}svc-obstetrics.png`, title: "Obstetrics & Delivery", titleKn: "ಪ್ರಸೂತಿ ಮತ್ತು ಹೆರಿಗೆ", desc: "Expert pregnancy care, safe labour room & delivery by experienced obstetricians.", accent: "#E8567A" },
+  { img: `${import.meta.env.BASE_URL}svc-gynecology.png`, title: "Gynaecology", titleKn: "ಸ್ತ್ರೀರೋಗ ಚಿಕಿತ್ಸೆ", desc: "Comprehensive women's health hormonal, menstrual, fertility and preventive care.", accent: "#1D4ED8" },
+  { img: `${import.meta.env.BASE_URL}svc-neonatal.png`, title: "Neonatal Care", titleKn: "ನವಜಾತ ಶಿಶು ಆರೈಕೆ", desc: "Dedicated newborn care with skilled paediatricians for the best start in life.", accent: "#6366F1" },
+  { img: `${import.meta.env.BASE_URL}svc-opd.png`, title: "OPD Consultations", titleKn: "ಹೊರರೋಗಿ ಸಮಾಲೋಚನೆ", desc: "Multi-specialty outpatient consultations with minimal wait times.", accent: "#F59E0B" },
+  { img: `${import.meta.env.BASE_URL}svc-emergency.png`, title: "Emergency & ICU", titleKn: "ತುರ್ತು ಮತ್ತು ಐಸಿಯು", desc: "Round-the-clock emergency care with basic ICU and rapid-response teams.", accent: "#EF4444" },
+  { img: `${import.meta.env.BASE_URL}svc-wellness.png`, title: "Women's Wellness", titleKn: "ಮಹಿಳಾ ಆರೋಗ್ಯ", desc: "Preventive screenings and holistic care tailored for women.", accent: "#22C55E" },
 ];
 
 const stats = [
