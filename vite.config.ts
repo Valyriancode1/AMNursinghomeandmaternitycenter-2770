@@ -1,7 +1,17 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwind from "@tailwindcss/vite";
+import path from "path";
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/AMNursinghomeandmaternitycenter-2770/',
-})
+  base: "/AMNursinghomeandmaternitycenter-2770/",
+  plugins: [react(), tailwind()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src/web"),
+    },
+  },
+  build: {
+    outDir: "dist",
+  },
+});
