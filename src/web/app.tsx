@@ -1,6 +1,6 @@
 import { Route, Switch } from "wouter";
 import { Provider } from "./components/provider";
-import { AgentFeedback, RunableBadge } from "@runablehq/website-runtime";
+import { AgentFeedback } from "@runablehq/website-runtime";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -35,7 +35,6 @@ function App() {
         <Footer />
       </div>
       {import.meta.env.DEV && <AgentFeedback />}
-      {<RunableBadge />}
     </Provider>
   );
 }
