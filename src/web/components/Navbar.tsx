@@ -68,7 +68,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
               <img
-                src="/logo.png"
+                src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="A.M Nursing Home Logo"
                 className="w-11 h-11 object-contain"
               />

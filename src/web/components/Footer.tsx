@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="AM Nursing Home" className="w-12 h-12 object-contain bg-white rounded-xl p-1.5" />
+              <img src="{`${import.meta.env.BASE_URL}logo.png`} alt="AM Nursing Home" className="w-12 h-12 object-contain bg-white rounded-xl p-1.5" />
               <div>
                 <p className="font-bold text-white leading-tight" style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px" }}>
                   A.M Nursing Home

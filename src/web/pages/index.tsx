@@ -82,7 +82,7 @@ export default function HomePage() {
       <section className="relative min-h-[88vh] flex flex-col justify-end overflow-hidden">
         {/* Background image */}
         <div className="absolute inset-0">
-          <img src="/hero-doctor.png" alt="AM Nursing Home" className="w-full h-full object-cover object-top" />
+          <img src={`${import.meta.env.BASE_URL}hero-doctor.png`} alt="AM Nursing Home" className="w-full h-full object-cover object-top" />
           <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(13,43,69,0.55) 0%, rgba(13,43,69,0.3) 40%, rgba(13,43,69,0.75) 100%)" }} />
         </div>
 
@@ -215,7 +215,7 @@ export default function HomePage() {
             {/* Image side */}
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="relative">
               <div className="rounded-3xl overflow-hidden shadow-2xl">
-                <img src="/hero-nurse.png" alt="Our medical team" className="w-full h-[480px] object-cover" />
+                <img src={`${import.meta.env.BASE_URL}hero-nurse.png`} alt="Our medical team" className="w-full h-[480px] object-cover" />
               </div>
 
             </motion.div>
