@@ -6,6 +6,7 @@ import path from "path";
 import runableAnalyticsPlugin from "./vite/plugins/runable-analytics-plugin";
 
 export default defineConfig({
+	base: "/AMNursinghomeandmaternitycenter-2770/"
 	plugins: [react(), runableAnalyticsPlugin(), cloudflare(), tailwind()],
 	resolve: {
 		alias: {
